@@ -1,0 +1,10 @@
+# requirements.txt
+
+fastapi
+uvicorn
+requests
+langchain
+chromadb
+ollama
+crewai
+python-dotenv
