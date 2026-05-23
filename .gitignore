@@ -1,0 +1,195 @@
+# =========================================================
+# PersistenceAI Pro — Universal .gitignore
+# Swift • Python • Node • Java • AI • macOS
+# =========================================================
+
+# ---------------------------------------------------------
+# macOS
+# ---------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ---------------------------------------------------------
+# Xcode / Swift
+# ---------------------------------------------------------
+.build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcworkspace
+
+# Swift Package Manager
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# ---------------------------------------------------------
+# Python
+# ---------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python Packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# ---------------------------------------------------------
+# Node.js / JavaScript
+# ---------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build Outputs
+.next/
+dist/
+out/
+coverage/
+
+# Vite
+vite.svg
+
+# ---------------------------------------------------------
+# Environment Variables / Secrets
+# ---------------------------------------------------------
+.env
+.env.*
+*.env
+
+# API Keys
+secrets.json
+config.private.json
+credentials.json
+
+# ---------------------------------------------------------
+# AI / ML Models
+# ---------------------------------------------------------
+models/
+checkpoints/
+weights/
+*.ckpt
+*.bin
+*.onnx
+*.safetensors
+*.pt
+*.pth
+
+# Embeddings / Vector DBs
+chromadb/
+vector_store/
+
+# Training Data
+datasets/raw/
+datasets/private/
+
+# ---------------------------------------------------------
+# Logs
+# ---------------------------------------------------------
+logs/
+*.log
+
+# ---------------------------------------------------------
+# Docker
+# ---------------------------------------------------------
+.docker/
+docker-data/
+
+# ---------------------------------------------------------
+# Java / Kotlin
+# ---------------------------------------------------------
+.gradle/
+build/
+out/
+*.class
+
+# IntelliJ
+.idea/
+*.iml
+
+# ---------------------------------------------------------
+# Android
+# ---------------------------------------------------------
+local.properties
+captures/
+
+# ---------------------------------------------------------
+# Temporary Files
+# ---------------------------------------------------------
+tmp/
+temp/
+.cache/
+
+# ---------------------------------------------------------
+# VS Code
+# ---------------------------------------------------------
+.vscode/
+
+# ---------------------------------------------------------
+# Cursor AI
+# ---------------------------------------------------------
+.cursor/
+
+# ---------------------------------------------------------
+# PersistenceAI Specific
+# ---------------------------------------------------------
+memory/cache/
+sandbox/runtime/
+sandbox/output/
+agents/temp/
+workflows/cache/
+
+# ---------------------------------------------------------
+# Keep Important Empty Folders
+# ---------------------------------------------------------
+!.gitkeep
